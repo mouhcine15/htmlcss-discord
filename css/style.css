@@ -9,7 +9,28 @@ body {
 }
 #menu {
     background-color: brown;
-    height: 100px;
+    height: 300px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+#menu::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.larghezza {
+    width: 60%;
+    margin: auto;
+}
+#logo {
+    display: inline;
+}
+li{
+    display: inline;
+    margin: 10px;
+    float: left;
 }
 
  #jumbotron {
